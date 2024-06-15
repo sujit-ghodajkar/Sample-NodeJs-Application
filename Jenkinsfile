@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from GitHub
-                git 'https://github.com/sujit-ghodajkar/Sample-NodeJs-Application.git'
+                git url: 'https://github.com/sujit-ghodajkar/Sample-NodeJs-Application.git'
             }
         }
 
